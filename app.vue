@@ -67,7 +67,7 @@ useHead({
 
     {
       property: "twitter:title",
-      content: "summary_large_image",
+      content: "Tim Benniks Links",
     },
     {
       property: "twitter:card",
