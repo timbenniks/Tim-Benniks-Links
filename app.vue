@@ -102,7 +102,7 @@ useHead({
   </Head>
   <article class="mx-auto w-full mt-8 text-center" style="max-width: 332px">
     <img
-      src="https://res.cloudinary.com/dwfcofnrd/image/fetch/w_200,q_auto,f_auto/https://images.prismic.io/timbenniks/375f865f-188c-4f83-9462-c8600aff4061_favicon.png"
+      src="https://res.cloudinary.com/dwfcofnrd/image/fetch/w_400,q_auto,f_auto/https://images.prismic.io/timbenniks/375f865f-188c-4f83-9462-c8600aff4061_favicon.png"
       width="400"
       height="400"
       alt="Tim Benniks"
