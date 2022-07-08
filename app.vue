@@ -74,8 +74,12 @@ useHead({
       content: "summary_large_image",
     },
     {
-      property: "twitter:site",
-      content: "@timbenniks",
+      property: "twitter:url",
+      content: "https://links.timbenniks.dev/",
+    },
+    {
+      property: "twitter:domain",
+      content: "links.timbenniks.dev",
     },
     {
       property: "twitter:site",
