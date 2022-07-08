@@ -71,8 +71,10 @@
 
     <template v-if="icon === 'tim'">
       <img
-        src="https://res.cloudinary.com/dwfcofnrd/image/fetch/w_200,q_auto,f_auto/https://images.prismic.io/timbenniks/375f865f-188c-4f83-9462-c8600aff4061_favicon.png"
+        src="https://res.cloudinary.com/dwfcofnrd/image/fetch/w_64,q_auto,f_auto/https://images.prismic.io/timbenniks/375f865f-188c-4f83-9462-c8600aff4061_favicon.png"
         width="32"
+        height="32"
+        alt="Tim Benniks"
         class="rounded-full w-7"
     /></template>
 

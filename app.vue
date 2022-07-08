@@ -15,6 +15,10 @@ useHead({
   viewport: "width=device-width, initial-scale=1",
   charset: "utf-8",
 
+  htmlAttrs: {
+    lang: "en",
+  },
+
   link: [
     { rel: "icon", href: "/icon.png" },
     { rel: "apple-touch-icon", href: "/icon.png" },
@@ -99,7 +103,9 @@ useHead({
   <article class="mx-auto w-full mt-8 text-center" style="max-width: 332px">
     <img
       src="https://res.cloudinary.com/dwfcofnrd/image/fetch/w_200,q_auto,f_auto/https://images.prismic.io/timbenniks/375f865f-188c-4f83-9462-c8600aff4061_favicon.png"
-      width="200"
+      width="400"
+      height="400"
+      alt="Tim Benniks"
       class="w-52 rounded-full mx-auto mb-8"
     />
     <h1 class="font-black uppercase bg-red p-2 text-5xl inline-block">
