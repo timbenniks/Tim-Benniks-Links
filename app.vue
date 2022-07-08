@@ -6,7 +6,7 @@ useSchemaOrg([
   definePerson({
     name: "Tim Benniks",
     image: "/icon.png",
-    sameAs: ["https://timbenniks.dev"],
+    sameAs: ["https://timbenniks.dev/"],
   }),
   defineWebPagePartial(),
 ]);
