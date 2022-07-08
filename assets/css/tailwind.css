@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-blue-dark text-white;
+  }
+
+  img,
+  video {
+    width: 100%;
+    height: auto;
+  }
+}
