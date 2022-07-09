@@ -110,7 +110,7 @@ useHead({
     />
 
     <h1
-      class="font-black uppercase bg-red p-2 text-5xl inline-block mb-4 relative -top-4"
+      class="font-black uppercase bg-red p-2 text-5xl inline-block relative -top-4"
     >
       Tim Benniks
     </h1>
@@ -122,7 +122,7 @@ useHead({
         rel="noopener"
         class="underline"
         >Uniform</a
-      >.
+      >
     </p>
 
     <ul class="mb-6 grid grid-cols-1 sm:grid-cols-2 max-w-md mx-auto gap-1">
@@ -185,7 +185,7 @@ useHead({
       >
         NuxtJS</a
       >
-      Ambassador.<br />
+      Ambassador<br />
 
       <a
         href="https://machalliance.org"
@@ -194,7 +194,7 @@ useHead({
         class="underline"
         >MACH Alliance</a
       >
-      tech council member.<br />
+      tech council member<br />
 
       <a
         href="https://cloudinary.com/mde"
@@ -203,7 +203,7 @@ useHead({
         class="underline"
         >Cloudinary</a
       >
-      MDE.
+      MDE
     </p>
   </article>
 </template>
