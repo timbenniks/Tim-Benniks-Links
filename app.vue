@@ -100,20 +100,33 @@ useHead({
     ></Style>
     <Title>Tim Benniks Links</Title>
   </Head>
-  <article class="mx-auto w-full mt-8 text-center" style="max-width: 332px">
+  <article class="mx-auto w-full mt-8 text-center px-4">
     <img
       src="https://res.cloudinary.com/dwfcofnrd/image/fetch/w_400,q_auto,f_auto/https://images.prismic.io/timbenniks/375f865f-188c-4f83-9462-c8600aff4061_favicon.png"
       width="400"
       height="400"
       alt="Tim Benniks"
-      class="w-52 rounded-full mx-auto mb-8"
+      class="w-52 rounded-full mx-auto"
     />
-    <h1 class="font-black uppercase bg-red p-2 text-5xl inline-block">
+
+    <h1
+      class="font-black uppercase bg-red p-2 text-5xl inline-block mb-4 relative -top-4"
+    >
       Tim Benniks
     </h1>
+    <p class="mb-8">
+      Principal Developer Advocate at
+      <a
+        href="https://uniform.dev"
+        target="_blank"
+        rel="noopener"
+        class="underline"
+        >Uniform</a
+      >.
+    </p>
 
-    <ul class="bg-blue-darker pt-4">
-      <li class="border-b border-b-blue-dark pb-4 mb-4">
+    <ul class="mb-6 grid grid-cols-1 sm:grid-cols-2 max-w-md mx-auto gap-1">
+      <li class="bg-blue-darker p-2">
         <icon
           class="text-xl"
           icon="tim"
@@ -121,7 +134,7 @@ useHead({
           text="timbenniks.dev"
         />
       </li>
-      <li class="border-b border-b-blue-dark pb-4 mb-4">
+      <li class="bg-blue-darker p-2">
         <icon
           class="text-xl"
           icon="twitter"
@@ -129,23 +142,7 @@ useHead({
           text="@timbenniks"
         />
       </li>
-      <li class="border-b border-b-blue-dark pb-4 mb-4">
-        <icon
-          class="text-xl"
-          icon="linkedin"
-          url="https://linkedin.com/in/timbenniks"
-          text="/in/timbenniks"
-        />
-      </li>
-      <li class="border-b border-b-blue-dark pb-4 mb-4">
-        <icon
-          class="text-xl"
-          icon="github"
-          url="https://github.com/timbenniks"
-          text="timbenniks"
-        />
-      </li>
-      <li class="border-b border-b-blue-dark pb-4 mb-4">
+      <li class="bg-blue-darker p-2">
         <icon
           class="text-xl"
           icon="youtube"
@@ -153,8 +150,23 @@ useHead({
           text="timbenniks"
         />
       </li>
-
-      <li class="pb-4">
+      <li class="bg-blue-darker p-2">
+        <icon
+          class="text-xl"
+          icon="linkedin"
+          url="https://linkedin.com/in/timbenniks"
+          text="/in/timbenniks"
+        />
+      </li>
+      <li class="bg-blue-darker p-2">
+        <icon
+          class="text-xl"
+          icon="github"
+          url="https://github.com/timbenniks"
+          text="timbenniks"
+        />
+      </li>
+      <li class="bg-blue-darker p-2">
         <icon
           class="text-xl"
           icon="tim"
@@ -163,5 +175,35 @@ useHead({
         />
       </li>
     </ul>
+
+    <p class="mb-6">
+      <a
+        href="https://nuxtjs.org/teams"
+        target="_blank"
+        rel="noopener"
+        class="underline"
+      >
+        NuxtJS</a
+      >
+      Ambassador.<br />
+
+      <a
+        href="https://machalliance.org"
+        target="_blank"
+        rel="noopener"
+        class="underline"
+        >MACH Alliance</a
+      >
+      tech council member.<br />
+
+      <a
+        href="https://cloudinary.com/mde"
+        target="_blank"
+        rel="noopener"
+        class="underline"
+        >Cloudinary</a
+      >
+      MDE.
+    </p>
   </article>
 </template>
