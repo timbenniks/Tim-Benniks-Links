@@ -170,8 +170,8 @@ useHead({
         <icon
           class="text-xl"
           icon="tim"
-          url="https://timbenniks.dev/presskit"
-          text="Presskit"
+          url="https://presskit.timbenniks.dev/"
+          text="Press kit"
         />
       </li>
     </ul>
